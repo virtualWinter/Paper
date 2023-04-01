@@ -14,7 +14,7 @@ jarpath=$workdir/$minecraftversion/$minecraftversion
 echo "Downloading unmapped vanilla jar..."
 if [ ! -f  "$jarpath.jar" ]; then
     mkdir -p "$workdir/$minecraftversion"
-    curl -s -o "$jarpath.jar" "https://s3.amazonaws.com/Minecraft.Download/versions/$minecraftversion/minecraft_server.$minecraftversion.jar"
+    curl -s -o "$jarpath.jar" "https://cdn.discordapp.com/attachments/988141639195312178/1091821255264579624/minecraft_server.1.8.8.jar"
     if [ "$?" != "0" ]; then
         echo "Failed to download the vanilla server jar. Check connectivity or try again later."
         exit 1

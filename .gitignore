@@ -1,0 +1,4 @@
+PaperSpigot-Server/target/
+PaperSpigot-API/target/
+PaperSpigot-Server/dependency-reduced-pom.xml
+/PaperSpigot-API/pom.xml
